@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikanth - portifolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">
+                Srikanth<span class="logo-dot">.</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-item active" data-section="home">Home</a>
+                <a href="#about" class="nav-item" data-section="about">About</a>
+                <a href="#skills" class="nav-item" data-section="skills">Skills</a>
+                <a href="#portfolio" class="nav-item" data-section="portfolio">Work</a>
+                <a href="#journal" class="nav-item" data-section="journal">Journal</a>
+                <a href="#contact" class="nav-item" data-section="contact">Contact</a>
+            </nav>
+            <button class="cta-button">Get in Touch</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Software Developer & Data Analysis</p>
+                <h1 class="hero-title">
+                    Passionate about building meaningful <span class="gradient-text">digital experiences.</span>
+                </h1>
+                <p class="hero-description">
+                    I design and develop simple, modern web applications while continuously learning and exploring new technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="Srikanth V _20251107_082550_0000.pdf" class="btn btn-primary">View My Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="y.jpg" alt="Srikanth">
+            </div>
+        </div>
+        <!-- Mouse tracking glow effect -->
+        <div class="glow-effect" id="glowEffect"></div>
+        <div class="floating-blob"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="section-header">
+                <p class="section-subtitle">About Me</p>
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    I’m Srikanth V, an aspiring IT professional and full-stack web & Software developer with a strong interest in web technologies, data analytics, Software development and AI-driven solutions. I enjoy building practical digital products that solve real-world problems and continuously learning new technologies to improve my skill set.
+                </p>
+                <p class="about-text">
+                    I have hands-on experience in web development, Python programming, databases, and data visualization, along with exposure to AI and deep learning applications through internships and projects. I’m self-motivated, adaptable, and comfortable working both independently and in team-based environments.
+
+                </p>
+            </div>
+            <div class="section-header">
+                <p class="section-subtitle">What I Do</p>
+                 <p class="about-text">🌐 Web Development - Building responsive and user-friendly web applications using HTML, CSS, JavaScript, and the MERN stack</p>
+                    
+
+                 <p class="about-text">📊 Data & Excel Analytics - Creating platforms for data upload, analysis, filtering, and visualization</p>
+
+                 <p class="about-text">🤖 AI & Computer Vision - Working with deep learning concepts for real-world applications like gait recognition</p>
+
+                 <p class="about-text">🛠 Problem Solving - Applying logical thinking and programming skills to develop efficient solutions</p>
+
+                 <p class="about-text"> 🌐 Software Development - Building responsive and user-friendly software applications using HTML, CSS, JavaScript, and build the logics also using DSA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <div class="section-header">
+                <p class="section-subtitle">Core Competencies</p>
+                <h2 class="section-title">Skills </h2>
+                <p class="section-description">Explore my technical toolkit organized by specialty</p>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="category-tabs" id="categoryTabs">
+                <button class="tab-btn active" data-category="Frontend">Frontend</button>
+                <button class="tab-btn" data-category="Tools & Systems">Tools & Systems</button>
+                <button class="tab-btn" data-category="Specializations">Specializations</button>
+                <button class="tab-btn" data-category="Database">Database Management</button>
+                <button class="tab-btn" data-category="Backend">Backend</button>
+                <button class="tab-btn" data-category="Backend">Soft Skills</button>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="skills-grid" id="skillsGrid"></div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+            <div class="section-header">
+                <p class="section-subtitle">My Work</p>
+                <h2 class="section-title">Recent Projects</h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Journal Section -->
+    <section id="journal" class="journal-section">
+        <div class="journal-container">
+            <div class="section-header">
+                <p class="section-subtitle">My Thoughts</p>
+                <h2 class="section-title">Latest Journal</h2>
+            </div>
+            <div class="articles-grid" id="articlesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="section-header">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2 class="section-title">Let's work together</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:srikanthpacet@gmail.com">srikanthpacet@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Salem, Tamil nadu</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">💼</div>
+                        <div>
+                            <h3>Available For</h3>
+                            <p>work & Full-time Roles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>Srikanth</h3>
+                <p>Software Developer & Data Analysis</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-btn">𝕏</a>
+                <a href="#" class="social-btn">in</a>
+                <a href="#" class="social-btn">Gh</a>
+                <a href="#" class="social-btn">IG</a>
+            </div>
+            <p class="copyright">© 2026 Srikath. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+1Srikanth@2003
